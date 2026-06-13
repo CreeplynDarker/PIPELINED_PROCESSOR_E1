@@ -1,6 +1,3 @@
-// mux4.v
-// 4-input multiplexer
-//
 // Used in the modified single-cycle processor to support lui.
 //
 // ResultSrc encoding in datapath:

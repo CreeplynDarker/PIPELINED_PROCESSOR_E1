@@ -23,7 +23,7 @@ WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1
 WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/extend.v" Line 1. Module extend doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/mux2.v" Line 1. Module mux2(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/alu.v" Line 1. Module alu doesn't have a timescale but at least one module in design has a timescale.
-WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/mux3.v" Line 12. Module mux4(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/new/mux4.v" Line 9. Module mux4(WIDTH=32) doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/imem.v" Line 1. Module imem doesn't have a timescale but at least one module in design has a timescale.
 WARNING: [XSIM 43-4099] "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/dmem.v" Line 1. Module dmem doesn't have a timescale but at least one module in design has a timescale.
 Completed simulation data flow analysis
