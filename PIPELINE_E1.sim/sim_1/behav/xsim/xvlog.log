@@ -1,0 +1,39 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/adder.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module adder
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/alu.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module alu
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/aludec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module aludec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/datapath.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/dmem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dmem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/extend.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module extend
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/flopr.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flopr
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'q' is not allowed [C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/flopr.v:7]
+WARNING: [VRFC 10-3380] identifier 'WIDTH' is used before its declaration [C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/flopr.v:2]
+WARNING: [VRFC 10-3380] identifier 'WIDTH' is used before its declaration [C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/flopr.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/imem.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module imem
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/maindec.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module maindec
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/mux2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux2
+WARNING: [VRFC 10-3380] identifier 'WIDTH' is used before its declaration [C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/mux2.v:1]
+WARNING: [VRFC 10-3380] identifier 'WIDTH' is used before its declaration [C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/mux2.v:3]
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/mux3.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux4
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/regfile.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module regfile
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/riscvsingle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module riscvsingle
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sim_1/imports/Src files/testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module testbench
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
