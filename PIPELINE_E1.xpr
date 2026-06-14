@@ -59,7 +59,7 @@
     <Option Name="IPStaticSourceDir" Val="$PIPUSERFILESDIR/ipstatic"/>
     <Option Name="EnableBDX" Val="FALSE"/>
     <Option Name="DSABoardId" Val="basys3"/>
-    <Option Name="WTXSimLaunchSim" Val="11"/>
+    <Option Name="WTXSimLaunchSim" Val="13"/>
     <Option Name="WTModelSimLaunchSim" Val="0"/>
     <Option Name="WTQuestaLaunchSim" Val="0"/>
     <Option Name="WTIesLaunchSim" Val="0"/>
@@ -95,6 +95,16 @@
           <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/SingleCycle PARTE 2/Src files/Src files/riscvtest.mem"/>
           <Attr Name="ImportTime" Val="1780080668"/>
           <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="simulation"/>
+        </FileInfo>
+      </File>
+      <File Path="$PSRCDIR/sources_1/imports/Src files/flopr.v">
+        <FileInfo>
+          <Attr Name="AutoDisabled" Val="1"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/SingleCycle PARTE 2/Src files/Src files/flopr.v"/>
+          <Attr Name="ImportTime" Val="1779995850"/>
+          <Attr Name="UsedIn" Val="synthesis"/>
+          <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
@@ -161,15 +171,6 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/Src files/flopr.v">
-        <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/SingleCycle PARTE 2/Src files/Src files/flopr.v"/>
-          <Attr Name="ImportTime" Val="1779995850"/>
-          <Attr Name="UsedIn" Val="synthesis"/>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
       <File Path="$PSRCDIR/sources_1/imports/Src files/imem.v">
         <FileInfo>
           <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/SingleCycle PARTE 2/Src files/Src files/imem.v"/>
@@ -213,10 +214,10 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PSRCDIR/sources_1/imports/Src files/riscvsingle.v">
+      <File Path="$PSRCDIR/sources_1/imports/Downloads/riscvpipelined.v">
         <FileInfo>
-          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/SingleCycle PARTE 2/Src files/Src files/riscvsingle.v"/>
-          <Attr Name="ImportTime" Val="1780079586"/>
+          <Attr Name="ImportPath" Val="$PPRDIR/../../Downloads/riscvpipelined.v"/>
+          <Attr Name="ImportTime" Val="1781463466"/>
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
