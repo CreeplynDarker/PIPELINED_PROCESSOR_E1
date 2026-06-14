@@ -2,11 +2,9 @@ module datapath(input  clk, reset,
                 input  [1:0]  ResultSrc, 
                 input  PCSrc, ALUSrc,
                 input  RegWrite,
-
                 // CHANGE:
                 // ImmSrc was 2 bits before.
                 // Now it is 3 bits because we need a new encoding for U-type immediates.
-                //
                 // New ImmSrc encoding:
                 // 000 = I-type
                 // 001 = S-type
@@ -14,8 +12,7 @@ module datapath(input  clk, reset,
                 // 011 = J-type
                 // 100 = U-type, used by lui
                 input  [2:0]  ImmSrc, 
-
-                input  [2:0]  ALUControl,
+                input  [3:0]  ALUControl,
                 output Zero,
                 output [31:0] PC,
                 input  [31:0] Instr,

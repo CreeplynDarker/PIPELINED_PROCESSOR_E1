@@ -1,5 +1,4 @@
 Time resolution is 1 ps
-[45000] STORE  mem[96] <= 12
-[65000] STORE  mem[96] <= 96
-[85000] STORE  mem[96] <= 48
-[105000] STORE  mem[96] <= 6
+[75000] STORE  mem[96] <= 4294967292
+[85000] STORE  mem[96] <= 2147483644
+[95000] STORE  mem[96] <= 4294967292

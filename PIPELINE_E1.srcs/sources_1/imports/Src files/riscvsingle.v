@@ -7,8 +7,7 @@ module riscvsingle(input  clk, reset,
                    input  [31:0] ReadData);
   
   wire [31:0] ALUResult; 
-  
-  wire       ALUSrc, RegWrite, Jump, Zero; 
+  wire ALUSrc, RegWrite, Jump, Zero; 
   wire [1:0] ResultSrc;
 
   // CHANGE:
@@ -24,10 +23,9 @@ module riscvsingle(input  clk, reset,
   //   010 = B-type
   //   011 = J-type
   //   100 = U-type, used by lui
-  wire [2:0] ImmSrc; 
-
-  wire [2:0] ALUControl; 
-  wire       PCSrc; 
+  wire [2:0] ImmSrc;
+  wire [3:0] ALUControl; 
+  wire PCSrc; 
 
   // DataAdr is connected to ALUResult.
   // No change needed for lui.
