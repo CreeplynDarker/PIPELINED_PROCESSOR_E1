@@ -1,11 +1,12 @@
 module alu(input  [31:0] a, b,
-           input  [3:0]  alucontrol,           // CHANGE A2: 3:0 (antes 2:0)
+           input  [3:0]  alucontrol,
            output [31:0] result,
-           output zero);
+           output zero,
+           output lt);                  // CHANGE B
   
   wire [31:0] condinvb, sum; 
-  wire        v;
-  wire        isAddSub; 
+  wire v;
+  wire isAddSub; 
 
   reg [31:0] result_reg; 
   assign result = result_reg;
@@ -29,5 +30,6 @@ module alu(input  [31:0] a, b,
     endcase
 
   assign zero = (result == 32'b0); 
-  assign v = ~(alucontrol[0] ^ a[31] ^ b[31]) & (a[31] ^ sum[31]) & isAddSub; 
+  assign v = ~(alucontrol[0] ^ a[31] ^ b[31]) & (a[31] ^ sum[31]) & isAddSub;
+  assign lt = sum[31] ^ v; // CHANGE B: a < b con signo (válido al restar) 
 endmodule

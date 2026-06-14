@@ -13,7 +13,7 @@ module datapath(input  clk, reset,
                 // 100 = U-type, used by lui
                 input  [2:0]  ImmSrc, 
                 input  [3:0]  ALUControl,
-                output Zero,
+                output Zero, LT, // CHANGE B:
                 output [31:0] PC,
                 input  [31:0] Instr,
                 output [31:0] ALUResult, WriteData, 
@@ -124,7 +124,8 @@ module datapath(input  clk, reset,
     .b(SrcB), 
     .alucontrol(ALUControl), 
     .result(ALUResult), 
-    .zero(Zero)
+    .zero(Zero),
+    .lt(LT) // CHANGE B
   ); 
 
   // ============================================================

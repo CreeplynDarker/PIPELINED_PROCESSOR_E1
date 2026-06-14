@@ -25,7 +25,8 @@ module riscvsingle(input  clk, reset,
   //   100 = U-type, used by lui
   wire [2:0] ImmSrc;
   wire [3:0] ALUControl; 
-  wire PCSrc; 
+  wire PCSrc;
+  wire LT; // CHANGE B 
 
   // DataAdr is connected to ALUResult.
   // No change needed for lui.
@@ -37,6 +38,7 @@ module riscvsingle(input  clk, reset,
     .funct3(Instr[14:12]), 
     .funct7b5(Instr[30]), 
     .Zero(Zero),
+    .LT(LT),
     .ResultSrc(ResultSrc), 
     .MemWrite(MemWrite), 
     .PCSrc(PCSrc),
@@ -59,14 +61,12 @@ module riscvsingle(input  clk, reset,
     .PCSrc(PCSrc),
     .ALUSrc(ALUSrc), 
     .RegWrite(RegWrite),
-
-    // CHANGE:
     // datapath now receives a 3-bit ImmSrc.
     // This allows extend.v to generate I, S, B, J, and U immediates.
-    .ImmSrc(ImmSrc), 
-
+    .ImmSrc(ImmSrc),
     .ALUControl(ALUControl),
-    .Zero(Zero), 
+    .Zero(Zero),
+    .LT(LT), 
     .PC(PC), 
     .Instr(Instr),
     .ALUResult(ALUResult), 

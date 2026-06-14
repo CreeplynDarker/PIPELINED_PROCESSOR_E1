@@ -1,0 +1,26 @@
+#-----------------------------------------------------------
+# Vivado v2025.2 (64-bit)
+# SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+# IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+# SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+# Start of session at: Sat Jun 13 21:32:45 2026
+# Process ID         : 17076
+# Current directory  : C:/Users/Usuario/VivadoProjects/PIPELINE_E1
+# Command line       : vivado.exe -gui_launcher_event rodinguilauncherevent21332 C:\Users\Usuario\VivadoProjects\PIPELINE_E1\PIPELINE_E1.xpr
+# Log file           : C:/Users/Usuario/VivadoProjects/PIPELINE_E1/vivado.log
+# Journal file       : C:/Users/Usuario/VivadoProjects/PIPELINE_E1\vivado.jou
+# Running On         : PAUL
+# Platform           : Windows Server 2016 or Windows 10
+# Operating System   : 26200
+# Processor Detail   : 11th Gen Intel(R) Core(TM) i5-1135G7 @ 2.40GHz
+# CPU Frequency      : 2419 MHz
+# CPU Physical cores : 4
+# CPU Logical cores  : 8
+# Host memory        : 21154 MB
+# Swap memory        : 1839 MB
+# Total Virtual      : 22994 MB
+# Available Virtual  : 4472 MB
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.xpr
+update_compile_order -fileset sources_1
