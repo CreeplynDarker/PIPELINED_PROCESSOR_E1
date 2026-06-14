@@ -22,6 +22,8 @@ module aludec(input  opb5,
                  3'b100:    ALUControl_reg = 3'b100; // xor
                  3'b110:    ALUControl_reg = 3'b011; // or, ori
                  3'b111:    ALUControl_reg = 3'b010; // and, andi
+                 3'b001:    ALUControl_reg = 3'b110; // sll, slli
+                 3'b101:    ALUControl_reg = 3'b111; // srl, srli
                  default:   ALUControl_reg = 3'bxxx; // ???
                endcase
     endcase
