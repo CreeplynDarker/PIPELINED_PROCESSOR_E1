@@ -26,7 +26,8 @@ module riscvsingle(input  clk, reset,
   wire [2:0] ImmSrc;
   wire [3:0] ALUControl; 
   wire PCSrc;
-  wire LT; // CHANGE B 
+  wire LT; // CHANGE B
+  wire JalrSrc; // CHANGE C 
 
   // DataAdr is connected to ALUResult.
   // No change needed for lui.
@@ -45,14 +46,12 @@ module riscvsingle(input  clk, reset,
     .ALUSrc(ALUSrc), 
     .RegWrite(RegWrite), 
     .Jump(Jump),
-
-    // CHANGE:
+    .JalrSrc(JalrSrc),
     // ImmSrc is now 3 bits.
     // controller receives it from maindec and sends it to datapath.
     .ImmSrc(ImmSrc), 
-
     .ALUControl(ALUControl)
-  ); 
+  );
   
   datapath dp(
     .clk(clk), 
@@ -61,6 +60,7 @@ module riscvsingle(input  clk, reset,
     .PCSrc(PCSrc),
     .ALUSrc(ALUSrc), 
     .RegWrite(RegWrite),
+    .JalrSrc(JalrSrc),
     // datapath now receives a 3-bit ImmSrc.
     // This allows extend.v to generate I, S, B, J, and U immediates.
     .ImmSrc(ImmSrc),

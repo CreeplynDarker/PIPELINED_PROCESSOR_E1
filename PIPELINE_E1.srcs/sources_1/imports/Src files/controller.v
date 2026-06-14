@@ -8,7 +8,8 @@ module controller(input  [6:0] op,
                   output       PCSrc, ALUSrc,
                   output       RegWrite, Jump,
                   output [2:0] ImmSrc, 
-                  output [3:0] ALUControl);
+                  output [3:0] ALUControl,
+                  output       JalrSrc); // CHANGE C
   
   wire [1:0] ALUOp; 
   wire       Branch; 
@@ -17,7 +18,7 @@ module controller(input  [6:0] op,
   maindec md(
     .op(op), .ResultSrc(ResultSrc), .MemWrite(MemWrite), .Branch(Branch),
     .ALUSrc(ALUSrc), .RegWrite(RegWrite), .Jump(Jump),
-    .ImmSrc(ImmSrc), .ALUOp(ALUOp)
+    .ImmSrc(ImmSrc), .ALUOp(ALUOp), .JalrSrc(JalrSrc) // CHANGE C
   ); 
 
   aludec ad(

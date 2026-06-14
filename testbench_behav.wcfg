@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="104.301 ns"></ZoomEndTime>
-      <Cursor1Time time="100.200 ns"></Cursor1Time>
+      <ZoomStartTime time="28.874 ns"></ZoomStartTime>
+      <ZoomEndTime time="78.625 ns"></ZoomEndTime>
+      <Cursor1Time time="45.050 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="134"></NameColumnWidth>
-      <ValueColumnWidth column_width="65"></ValueColumnWidth>
+      <NameColumnWidth column_width="133"></NameColumnWidth>
+      <ValueColumnWidth column_width="114"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="10" />
+   <WVObjectSize size="11" />
    <wvobject fp_name="/testbench/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -63,5 +63,9 @@
    <wvobject fp_name="/testbench/dut/rvsingle/LT" type="logic">
       <obj_property name="ElementShortName">LT</obj_property>
       <obj_property name="ObjectShortName">LT</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/rvsingle/dp/JalrSrc" type="logic">
+      <obj_property name="ElementShortName">JalrSrc</obj_property>
+      <obj_property name="ObjectShortName">JalrSrc</obj_property>
    </wvobject>
 </wave_config>

@@ -13,6 +13,7 @@ module datapath(input  clk, reset,
                 // 100 = U-type, used by lui
                 input  [2:0]  ImmSrc, 
                 input  [3:0]  ALUControl,
+                input  JalrSrc, // CHANGE C
                 output Zero, LT, // CHANGE B:
                 output [31:0] PC,
                 input  [31:0] Instr,
@@ -21,7 +22,8 @@ module datapath(input  clk, reset,
   
   localparam WIDTH = 32; // Define a local parameter for bus width
 
-  wire [31:0] PCNext, PCPlus4, PCTarget; 
+  wire [31:0] PCNext, PCPlus4, PCTarget;
+  wire [31:0] PCTargetBase;   // CHANGE C 
   wire [31:0] ImmExt; 
   wire [31:0] SrcA, SrcB; 
   wire [31:0] Result; 
@@ -45,8 +47,16 @@ module datapath(input  clk, reset,
     .y(PCPlus4)
   ); 
 
+  // CHANGE C: el destino del salto parte de PC (jal/branch) o de rs1 (jalr)
+  mux2 #(WIDTH) jalrmux(
+    .d0(PC), 
+    .d1(SrcA), 
+    .s(JalrSrc), 
+    .y(PCTargetBase)
+  ); 
+
   adder pcaddbranch(
-    .a(PC), 
+    .a(PCTargetBase),   // antes era .a(PC)
     .b(ImmExt), 
     .y(PCTarget)
   ); 
