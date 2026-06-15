@@ -11,15 +11,15 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="15.244 ns"></ZoomStartTime>
-      <ZoomEndTime time="190.245 ns"></ZoomEndTime>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="115.001 ns"></ZoomEndTime>
       <Cursor1Time time="50.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="133"></NameColumnWidth>
-      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+      <ValueColumnWidth column_width="98"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="15" />
+   <WVObjectSize size="12" />
    <wvobject fp_name="/testbench/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -36,18 +36,6 @@
       <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
       <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/ResultW" type="array">
-      <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
-      <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/MemWrite" type="logic">
-      <obj_property name="ElementShortName">MemWrite</obj_property>
-      <obj_property name="ObjectShortName">MemWrite</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/DataAdr" type="array">
-      <obj_property name="ElementShortName">DataAdr[31:0]</obj_property>
-      <obj_property name="ObjectShortName">DataAdr[31:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/WriteData" type="array">
       <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
       <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
@@ -56,28 +44,28 @@
       <obj_property name="ElementShortName">RdE[4:0]</obj_property>
       <obj_property name="ObjectShortName">RdE[4:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/ForwardAE" type="array">
-      <obj_property name="ElementShortName">ForwardAE[1:0]</obj_property>
-      <obj_property name="ObjectShortName">ForwardAE[1:0]</obj_property>
+   <wvobject fp_name="/testbench/dut/rvp/dp/InstrD" type="array">
+      <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/dp/PCF" type="array">
       <obj_property name="ElementShortName">PCF[31:0]</obj_property>
       <obj_property name="ObjectShortName">PCF[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/hu/StallF" type="logic">
-      <obj_property name="ElementShortName">StallF</obj_property>
-      <obj_property name="ObjectShortName">StallF</obj_property>
-   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/hu/StallD" type="logic">
       <obj_property name="ElementShortName">StallD</obj_property>
       <obj_property name="ObjectShortName">StallD</obj_property>
    </wvobject>
+   <wvobject fp_name="/testbench/dut/rvp/hu/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/rvp/hu/FlushD" type="logic">
+      <obj_property name="ElementShortName">FlushD</obj_property>
+      <obj_property name="ObjectShortName">FlushD</obj_property>
+   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/hu/FlushE" type="logic">
       <obj_property name="ElementShortName">FlushE</obj_property>
       <obj_property name="ObjectShortName">FlushE</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/hu/lwStall" type="logic">
-      <obj_property name="ElementShortName">lwStall</obj_property>
-      <obj_property name="ObjectShortName">lwStall</obj_property>
    </wvobject>
 </wave_config>
