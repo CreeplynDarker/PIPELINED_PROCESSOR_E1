@@ -12,12 +12,12 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="115.000 ns"></ZoomEndTime>
+      <ZoomEndTime time="111.528 ns"></ZoomEndTime>
       <Cursor1Time time="45.050 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="133"></NameColumnWidth>
-      <ValueColumnWidth column_width="110"></ValueColumnWidth>
+      <ValueColumnWidth column_width="106"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="13" />
    <wvobject fp_name="/testbench/clk" type="logic">
@@ -48,10 +48,6 @@
       <obj_property name="ElementShortName">RdW[4:0]</obj_property>
       <obj_property name="ObjectShortName">RdW[4:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf" type="array">
-      <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
-      <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/dp/ResultW" type="array">
       <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
       <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
@@ -71,5 +67,9 @@
    <wvobject fp_name="/testbench/dut/rvp/WriteData" type="array">
       <obj_property name="ElementShortName">WriteData[31:0]</obj_property>
       <obj_property name="ObjectShortName">WriteData[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf" type="array">
+      <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
+      <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
    </wvobject>
 </wave_config>
