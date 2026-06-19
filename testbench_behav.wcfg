@@ -12,12 +12,12 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="50.351 ns"></ZoomEndTime>
+      <ZoomEndTime time="145.000 ns"></ZoomEndTime>
       <Cursor1Time time="45.050 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="133"></NameColumnWidth>
-      <ValueColumnWidth column_width="102"></ValueColumnWidth>
+      <NameColumnWidth column_width="152"></NameColumnWidth>
+      <ValueColumnWidth column_width="100"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="11" />
    <wvobject fp_name="/testbench/clk" type="logic">
@@ -36,6 +36,10 @@
       <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
       <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
    </wvobject>
+   <wvobject fp_name="/testbench/dut/rvp/dp/PCSrcE" type="logic">
+      <obj_property name="ElementShortName">PCSrcE</obj_property>
+      <obj_property name="ObjectShortName">PCSrcE</obj_property>
+   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/dp/RdW" type="array">
       <obj_property name="ElementShortName">RdW[4:0]</obj_property>
       <obj_property name="ObjectShortName">RdW[4:0]</obj_property>
@@ -44,13 +48,9 @@
       <obj_property name="ElementShortName">ResultW[31:0]</obj_property>
       <obj_property name="ObjectShortName">ResultW[31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/SrcAE" type="array">
-      <obj_property name="ElementShortName">SrcAE[31:0]</obj_property>
-      <obj_property name="ObjectShortName">SrcAE[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf" type="array">
-      <obj_property name="ElementShortName">rf[31:0][31:0]</obj_property>
-      <obj_property name="ObjectShortName">rf[31:0][31:0]</obj_property>
+   <wvobject fp_name="/testbench/dut/rvp/dp/RegWriteW" type="logic">
+      <obj_property name="ElementShortName">RegWriteW</obj_property>
+      <obj_property name="ObjectShortName">RegWriteW</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/MemWrite" type="logic">
       <obj_property name="ElementShortName">MemWrite</obj_property>
