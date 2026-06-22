@@ -8,6 +8,8 @@ INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIP
 INFO: [VRFC 10-311] analyzing module controller
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/datapath.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module datapath
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/c.sub/decompressor.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module decompressor
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/dmem.v" into library xil_defaultlib
 INFO: [VRFC 10-311] analyzing module dmem
 INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sources_1/imports/Src files/extend.v" into library xil_defaultlib

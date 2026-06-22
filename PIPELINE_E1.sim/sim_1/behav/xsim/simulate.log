@@ -1,4 +1,5 @@
 Time resolution is 1 ps
-[115000] STORE  mem[100] <= 25
+[85000] STORE  mem[96] <= 35
+[135000] STORE  mem[100] <= 25
 Simulation succeeded
-$finish called at time : 115 ns : File "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sim_1/imports/Src files/testbench.v" Line 38
+$finish called at time : 135 ns : File "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sim_1/imports/Src files/testbench.v" Line 38
