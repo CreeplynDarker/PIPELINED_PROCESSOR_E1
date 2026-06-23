@@ -12,14 +12,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="123.890 ns"></ZoomEndTime>
-      <Cursor1Time time="10.981 ns"></Cursor1Time>
+      <ZoomEndTime time="48.151 ns"></ZoomEndTime>
+      <Cursor1Time time="30.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="186"></NameColumnWidth>
-      <ValueColumnWidth column_width="97"></ValueColumnWidth>
+      <ValueColumnWidth column_width="93"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="15" />
+   <WVObjectSize size="11" />
    <wvobject fp_name="/testbench/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -48,25 +48,9 @@
       <obj_property name="ElementShortName">[8][31:0]</obj_property>
       <obj_property name="ObjectShortName">[8][31:0]</obj_property>
    </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[9]" type="array">
-      <obj_property name="ElementShortName">[9][31:0]</obj_property>
-      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[10]" type="array">
-      <obj_property name="ElementShortName">[10][31:0]</obj_property>
-      <obj_property name="ObjectShortName">[10][31:0]</obj_property>
-   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/dp/RdE" type="array">
       <obj_property name="ElementShortName">RdE[4:0]</obj_property>
       <obj_property name="ObjectShortName">RdE[4:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/hu/StallD" type="logic">
-      <obj_property name="ElementShortName">StallD</obj_property>
-      <obj_property name="ObjectShortName">StallD</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/hu/FlushE" type="logic">
-      <obj_property name="ElementShortName">FlushE</obj_property>
-      <obj_property name="ObjectShortName">FlushE</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/c/md/MemWrite" type="logic">
       <obj_property name="ElementShortName">MemWrite</obj_property>
