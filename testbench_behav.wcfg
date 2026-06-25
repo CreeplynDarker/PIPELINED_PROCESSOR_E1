@@ -12,14 +12,14 @@
    </db_ref_list>
    <zoom_setting>
       <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="48.551 ns"></ZoomEndTime>
+      <ZoomEndTime time="105.001 ns"></ZoomEndTime>
       <Cursor1Time time="34.950 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="186"></NameColumnWidth>
-      <ValueColumnWidth column_width="85"></ValueColumnWidth>
+      <ValueColumnWidth column_width="81"></ValueColumnWidth>
    </column_width_setting>
-   <WVObjectSize size="11" />
+   <WVObjectSize size="10" />
    <wvobject fp_name="/testbench/clk" type="logic">
       <obj_property name="ElementShortName">clk</obj_property>
       <obj_property name="ObjectShortName">clk</obj_property>
@@ -47,10 +47,6 @@
    <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[8]" type="array">
       <obj_property name="ElementShortName">[8][31:0]</obj_property>
       <obj_property name="ObjectShortName">[8][31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/RdE" type="array">
-      <obj_property name="ElementShortName">RdE[4:0]</obj_property>
-      <obj_property name="ObjectShortName">RdE[4:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/c/md/MemWrite" type="logic">
       <obj_property name="ElementShortName">MemWrite</obj_property>
