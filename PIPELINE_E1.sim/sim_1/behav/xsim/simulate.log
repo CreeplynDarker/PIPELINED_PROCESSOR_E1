@@ -1,2 +1,10 @@
 Time resolution is 1 ps
 [525000] STORE  mem[32] <= 8
+[1185000] STORE  mem[36] <= 19
+[1665000] STORE  mem[40] <= 6
+[2325000] STORE  mem[44] <= 23
+[2735000] STORE  mem[48] <= 15
+---------------------------------------------
+C = [8 19 ; 6 23]   checksum h = 15
+Simulation succeeded
+$finish called at time : 4 us : File "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sim_1/imports/Src files/testbench.v" Line 74
