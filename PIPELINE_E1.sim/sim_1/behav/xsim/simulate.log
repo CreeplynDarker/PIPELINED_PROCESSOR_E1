@@ -1,6 +1,5 @@
 Time resolution is 1 ps
-[75000] STORE  mem[96] <= 25
-[105000] STORE  mem[100] <= 25
+[125000] STORE  mem[100] <= 25
 ---------------------------------------------
 C = [x x ; x x]   checksum h = x
 Simulation failed (5 valores incorrectos)
