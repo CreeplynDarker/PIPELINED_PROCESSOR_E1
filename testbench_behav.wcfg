@@ -11,12 +11,12 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="101.801 ns"></ZoomEndTime>
-      <Cursor1Time time="25.000 ns"></Cursor1Time>
+      <ZoomStartTime time="168.800 ns"></ZoomStartTime>
+      <ZoomEndTime time="271.001 ns"></ZoomEndTime>
+      <Cursor1Time time="260.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
-      <NameColumnWidth column_width="146"></NameColumnWidth>
+      <NameColumnWidth column_width="142"></NameColumnWidth>
       <ValueColumnWidth column_width="78"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="19" />
@@ -44,13 +44,13 @@
       <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
       <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
    </wvobject>
+   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[2]" type="array">
+      <obj_property name="ElementShortName">[2][31:0]</obj_property>
+      <obj_property name="ObjectShortName">[2][31:0]</obj_property>
+   </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[8]" type="array">
       <obj_property name="ElementShortName">[8][31:0]</obj_property>
       <obj_property name="ObjectShortName">[8][31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[9]" type="array">
-      <obj_property name="ElementShortName">[9][31:0]</obj_property>
-      <obj_property name="ObjectShortName">[9][31:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/dp/rf/rf[10]" type="array">
       <obj_property name="ElementShortName">[10][31:0]</obj_property>
@@ -63,6 +63,10 @@
    <wvobject fp_name="/testbench/dut/rvp/ForwardBE" type="array">
       <obj_property name="ElementShortName">ForwardBE[1:0]</obj_property>
       <obj_property name="ObjectShortName">ForwardBE[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/testbench/dut/rvp/c/ResultSrcE0" type="logic">
+      <obj_property name="ElementShortName">ResultSrcE0</obj_property>
+      <obj_property name="ObjectShortName">ResultSrcE0</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/StallF" type="logic">
       <obj_property name="ElementShortName">StallF</obj_property>
@@ -79,10 +83,6 @@
    <wvobject fp_name="/testbench/dut/rvp/dp/ReadDataM" type="array">
       <obj_property name="ElementShortName">ReadDataM[31:0]</obj_property>
       <obj_property name="ObjectShortName">ReadDataM[31:0]</obj_property>
-   </wvobject>
-   <wvobject fp_name="/testbench/dut/rvp/dp/ALUResultM" type="array">
-      <obj_property name="ElementShortName">ALUResultM[31:0]</obj_property>
-      <obj_property name="ObjectShortName">ALUResultM[31:0]</obj_property>
    </wvobject>
    <wvobject fp_name="/testbench/dut/rvp/DataAdr" type="array">
       <obj_property name="ElementShortName">DataAdr[31:0]</obj_property>
