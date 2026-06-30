@@ -1,6 +1,6 @@
 Time resolution is 1 ps
-[125000] STORE  mem[100] <= 25
+[545000] STORE  mem[100] <= 25 (0x00000019)
 ---------------------------------------------
-C = [x x ; x x]   checksum h = x
-Simulation failed (5 valores incorrectos)
-$finish called at time : 4 us : File "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sim_1/imports/Src files/testbench.v" Line 74
+mem[100] = RAM[25] = 25   (esperado 25)
+Simulation succeeded
+$finish called at time : 2 us : File "C:/Users/Usuario/VivadoProjects/PIPELINE_E1/PIPELINE_E1.srcs/sim_1/imports/Src files/testbench.v" Line 80
